@@ -2,6 +2,9 @@
 .Rhistory
 .Rapp.history
 
+# install.packages("devtools")
+devtools::install_github("finnlindgren/StatCompLab", build_vignettes = TRUE)
+
 # Session Data files
 .RData
 
